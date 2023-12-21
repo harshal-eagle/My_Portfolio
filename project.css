@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@100;300;400&display=swap');
+
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.sectionheader
+{
+    height: 80px;
+}
+nav {
+    height: 60px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+   
+}
+body
+{
+    
+    background-color: #f3f5f8;
+
+}
+.left {
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 127vh;
+    padding-top: 15px;
+    padding-left: 5px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    color: #3d535f;
+    list-style: none;
+    font-weight: 500;
+    display: flex;  
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: #3d535f;
+}
+
+nav ul li a:hover {
+    color: rgb(41, 39, 187);
+    font-size: 1.2rem;
+}
+
+span
+{
+    text-transform: capitalize;
+    color: blue;
+}
+.service
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.fa-car-rear
+{
+    font-size: 25px;
+}
+.fa-gamepad
+{
+    font-size: 25px;
+}
+.fa-rocket
+{
+    font-size: 25px;
+}
+.fa-jet-fighter-up
+{
+    font-size: 25px;
+}
+.fa-atlassian
+{
+    font-size: 25px;
+}
+.fa-js
+{
+    font-size: 25px;
+}
+.service-box
+{
+    box-shadow: 0 0 4px 0 rgb(48, 48, 246);
+    padding: 15px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.btn-class
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    text-decoration-line: none;
+}
+.service-box #btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: rgb(1, 255, 170);
+}
+.service-box #btn:hover
+{
+    background-color: rgb(132, 255, 132);
+}
+.footer-basic {
+    padding: 25px;
+    background-color:#f3f5f8;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    color: rgb(41, 39, 187);
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:1px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    color: black;
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
